@@ -2,3 +2,26 @@ body,
 html {
   min-height: 100%;
 }
+
+.header {
+  border: 1px;
+  padding: 1px;
+  text-align: center;
+  color: red;
+  background-color: blue;
+  
+}
+
+.content {
+  border: 1px;
+  padding: 1px;
+
+}
+
+.footer {
+  border: 1px;
+  padding: 1px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: black;
+}
