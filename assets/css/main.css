@@ -5,13 +5,13 @@ html {
   font-family: Arial;
 }
 
-.header {
+.top-header {
   border: 1px;
   padding: 1px;
   text-align: center;
 }
 
-.option-header {
+.header {
   display: inline-block;
 }
 
