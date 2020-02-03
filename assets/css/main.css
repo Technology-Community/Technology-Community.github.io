@@ -1,14 +1,18 @@
 body,
 html {
   min-height: 100%;
+  position: relative;
+  font-family: Arial;
 }
 
 .header {
   border: 1px;
   padding: 1px;
   text-align: center;
-  color: red;
-  background-color: blue;
+}
+
+.option-header {
+  display: inline-block;
 }
 
 .content {
@@ -19,7 +23,7 @@ html {
 .footer {
   border: 1px;
   padding: 1px;
-  text-align: center;
   color: whitesmoke;
   background-color: black;
+  display: block;
 }
