@@ -1,5 +1,6 @@
+$bgcolor:rgba(0, 0, 0, 0.9);
 footer {
-    background-color: rgba(82, 64, 120, 0.9);
+    background-color: $bgcolor;
     color: #d5d5d5;
 }
 
@@ -15,4 +16,8 @@ hr.light {
 
 #footer-group {
     color: whitesmoke;
+    text-decoration: none;
+    &:hover {
+        color: rgb(139, 139, 139);
+    }
 }

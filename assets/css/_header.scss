@@ -1,5 +1,6 @@
+$bgcolor:rgba(0, 0, 0, 0.9);
 .navbar {
-    background-color: rgba(82, 64, 120, 0.9) !important;
+    background-color: $bgcolor !important;
     li {
         a {
             color: white !important;
