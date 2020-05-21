@@ -1,0 +1,13 @@
+{
+  "name": "Convert-SASS-to-CSS",
+  "version": "0.0.1",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": ""
+  },
+  "scripts": {
+    "scss": "sass --watch ./assets/css/styles.scss ./assets/css/styles.css"
+  },
+  "author": "KingNNT",
+  "license": "ISC"
+}
