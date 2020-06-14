@@ -1,16 +1,22 @@
 main {
-    .welcome {
+    #welcome {
         hr {
             border-top: solid 2px #311a1ac0;
             width: 95%;
             margin-bottom: 2rem;
         }
     }
+
+    #contact {
+        a {
+            text-decoration: none;
+        }
+    }
     .social a {
         font-size: 3em;
         padding: 3rem;
     }
-    .fa-facebook {
+    .fa-facebook-square {
         color: #3b5998
     }
     .fa-twitter {

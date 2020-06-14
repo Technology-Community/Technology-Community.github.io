@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-@import '../../node_modules/normalize.css/normalize.css';
 body {
   font-family: "Roboto";
   font-size: 15px;
@@ -49,16 +48,19 @@ header .slide .carousel-inner .carousel-caption .btn-primary a {
   text-decoration: none;
 }
 
-main .welcome hr {
+main #welcome hr {
   border-top: solid 2px #311a1ac0;
   width: 95%;
   margin-bottom: 2rem;
+}
+main #contact a {
+  text-decoration: none;
 }
 main .social a {
   font-size: 3em;
   padding: 3rem;
 }
-main .fa-facebook {
+main .fa-facebook-square {
   color: #3b5998;
 }
 main .fa-twitter {
