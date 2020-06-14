@@ -25,6 +25,7 @@ header {
     }
     .slide {
         .carousel-inner {
+            position: relative;
             img {
                 width: 100%;
                 height: 700px;
@@ -34,7 +35,6 @@ header {
                 position: absolute;
                 top: 1%;
                 h1 {
-                    font-size: 400%;
                     text-transform: uppercase;
                     @include textForm;
                 }
